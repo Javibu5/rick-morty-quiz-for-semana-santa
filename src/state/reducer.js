@@ -25,9 +25,19 @@ const realButNotTooMuchCuestions = [
     answers: ["Si", "No", "Terraza"]
   },
   {
-      cuestion: "Si pudieras cambiar algo en cómo te educaron, ¿qué sería?",
-      answers: ["nada"]
+    cuestion: "Si pudieras cambiar algo en cómo te educaron, ¿qué sería?",
+    answers: ["nada"]
   },
+  {
+    cuestion:
+      "Si pudieras usar la pistola interdimensional. ¿A dónde irías a comer bacalado?",
+    answers: [
+      "A Portugal",
+      "Al País Vasco",
+      "A Noruega",
+      "A la feria de Peñarroya"
+    ]
+  }
 ];
 
 const cuestions = (state = realButNotTooMuchCuestions, action) => {
